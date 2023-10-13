@@ -12,6 +12,13 @@ public class Character {
         this.name = name;
     }
 
+    public Character(String name, int healty, int damage, int money) {
+        this.name = name;
+        this.healty = healty;
+        this.damage = damage;
+        this.money = money;
+    }
+
     public int getHealty() {
         return healty;
     }
