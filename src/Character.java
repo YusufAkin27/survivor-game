@@ -3,6 +3,10 @@ public class Character {
     private int healty;
     private  int damage;
     private  int money;
+    private Arm arm;//silah
+    private Armor armor;//zırh
+
+
 
     public String getName() {
         return name;
