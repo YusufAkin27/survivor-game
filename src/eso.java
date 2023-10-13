@@ -3,6 +3,7 @@ public class eso {
     public int  id;
     public String isim ;
     public static int yas;
+     private int sifre;
 
     public int getId() {
         return id;
