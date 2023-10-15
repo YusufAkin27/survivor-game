@@ -1,3 +1,3 @@
 public class Arm {
-private int d
+private int d;
 }
