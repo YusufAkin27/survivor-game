@@ -77,33 +77,33 @@ public class Character {
                 case 1:
                     character.setCharacterClasses(CharacterClasses.values()[choose-1]);// Sınıf Seçimi
                     character.setHealth(30); // Sağlığın belirlenmesi
-                    character.setDamage(25); // Hasarın belirlenmesi
+                    character.setDamage(); // Hasarın belirlenmesi
                     character.setMoney(0);
-                    character.setArm(Arm.values()[choose-1]); // Silah nesnesi oluşturulabilir
+                    character.setArm(); // Silah nesnesi oluşturulabilir
                     character.setArmor(null); // Zırh nesnesi oluşturulabilir
                     break;
                 case 2:
                     character.setCharacterClasses(CharacterClasses.values()[choose-1]);
                     character.setHealth(60); // Sağlığın belirlenmesi
-                    character.setDamage(20); // Hasarın belirlenmesi
+                    character.setDamage(arm.getDamage()); // Hasarın belirlenmesi
                     character.setMoney(0);
-                    character.setArm(Arm.values()[choose-1]); // Silah nesnesi oluşturulabilir
+                    character.setArm(); // Silah nesnesi oluşturulabilir
                     character.setArmor(null); // Zırh nesnesi oluşturulabilir
                     break;
                 case 3:
                     character.setCharacterClasses(CharacterClasses.values()[choose-1]);
                     character.setHealth(70); // Sağlığın belirlenmesi
-                    character.setDamage(15); // Hasarın belirlenmesi
+                    character.setDamage(); // Hasarın belirlenmesi
                     character.setMoney(0);
-                    character.setArm(Arm.values()[choose-1]); // Silah nesnesi oluşturulabilir
+                    character.setArm(); // Silah nesnesi oluşturulabilir
                     character.setArmor(null); // Zırh nesnesi oluşturulabilir
                     break;
                 case 4:
                     character.setCharacterClasses(CharacterClasses.values()[choose-1]);
                     character.setHealth(20); // Sağlığın belirlenmesi
-                    character.setDamage(30); // Hasarın belirlenmesi
+                    character.setDamage(); // Hasarın belirlenmesi
                     character.setMoney(0);
-                    character.setArm(Arm.values()[choose-1]); // Silah nesnesi oluşturulabilir
+                    character.setArm(); // Silah nesnesi oluşturulabilir
                     character.setArmor(null); // Zırh nesnesi oluşturulabilir
                     break;
                 default:
