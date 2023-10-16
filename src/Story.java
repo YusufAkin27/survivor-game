@@ -1,22 +1,20 @@
 import java.util.Scanner;
 
 public class Story {
-    Scanner scanner = new Scanner(System.in);
-    Menu menu = new Menu();
-
-    public void storyMenu(Character character) {
+    Scanner scanner=new Scanner(System.in);
+    Menu menu=new Menu();
+    public void storyMenu(Character character){
         System.out.println("zırhları listelemek için --> 1");
         System.out.println("silahları listelemek için --> 2");
         System.out.println("yetenekleri listelemek için --> 3");
         System.out.println("Ana Menüye dönmek için --> 4");
-        int value = scanner.nextInt();
-        satınAl(character, value);
+        int value=scanner.nextInt();
+        satınAl(character,value);
     }
 
-    private void satınAl(Character character, int value) {
-        switch (value) {
+    private Character satınAl(Character character,int value) {
+        switch (value){
             case 1:
-
                 break;
             case 2:
                 break;
@@ -29,6 +27,7 @@ public class Story {
                 storyMenu(character);
                 break;
         }
+        return null;
     }
 
 }
