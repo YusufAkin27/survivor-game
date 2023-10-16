@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Character {
     private String name;
-    private String[] characterNames = {"Zeus", "Hera", "Athena", "Apollo", "Hermes", "Artemis", "Ares", "Poseidon"};
+    private String[] characterNames = {"okçu", "Kılıç Ustası", "Dövüş Sanatçısı", "Büyücü"};
     private int health;
     private int damage;
     private int money;
