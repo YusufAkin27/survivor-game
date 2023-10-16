@@ -1,3 +1,2 @@
-public class Arm {
-private int d
+public enum Arm {
 }
