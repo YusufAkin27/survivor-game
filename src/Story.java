@@ -29,6 +29,7 @@ public class Story {
                 storyMenu(character);
                 break;
         }
+        return null;
     }
 
 }
