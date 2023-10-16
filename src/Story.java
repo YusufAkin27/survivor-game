@@ -13,7 +13,7 @@ public class Story {
         satınAl(character, value);
     }
 
-    private Character satınAl(Character character, int value) {
+    private void satınAl(Character character, int value) {
         switch (value) {
             case 1:
 
