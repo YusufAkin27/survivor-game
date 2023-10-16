@@ -1,11 +1,11 @@
 public class Character {
     private String name;
+    private String[] Class = {"Archer", "SwordMan", "MartialArtist", "Mage"};
     private int healty;
-    private  int damage;
-    private  int money;
+    private int damage;
+    private int money;
     private Arm arm;//silah
     private Armor armor;//zırh
-
 
 
     public String getName() {
@@ -22,6 +22,7 @@ public class Character {
         this.damage = damage;
         this.money = money;
     }
+
 
     public int getHealty() {
         return healty;
@@ -47,3 +48,5 @@ public class Character {
         this.money = money;
     }
 }
+
+
