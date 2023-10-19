@@ -74,7 +74,10 @@ public class Armor {
         if (value == 10) {
             menu.mainMenu();
         }
-        Armor armor = new Armor(armorName[value - 1], armorHealth[value - 1], armorPrice[value - 1]);
+        Armor armor = new Armor();
+        armor.setName(armorName[value-1]);
+        armor.setHealth(armorHealth[value-1]);
+        armor.setPrice(armorPrice[value-1]);
         return armor;
 
     }
