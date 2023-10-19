@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Story {
     Scanner scanner=new Scanner(System.in);
+    Armor armor=new Armor();
     Menu menu=new Menu();
     public void storyMenu(Character character){
         System.out.println("zırhları listelemek için --> 1");
@@ -17,7 +18,7 @@ public class Story {
             case 1:
                 // önce tüm zırhları görmem lazım
                 // satım alımı yapıcaksa
-
+armor.listele();
                 break;
             case 2:
 

@@ -32,11 +32,6 @@ public class Armor {
         this.price = price;
     }
 
-    public Armor(String name, int health, int price) {
-        this.name = name;
-        this.health = health;
-        this.price = price;
-    }
 
     public Armor listele() {
         Scanner scanner = new Scanner(System.in);
