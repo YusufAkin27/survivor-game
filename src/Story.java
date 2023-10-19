@@ -15,8 +15,13 @@ public class Story {
     private Character satınAl(Character character,int value) {
         switch (value){
             case 1:
+                // önce tüm zırhları görmem lazım
+                // satım alımı yapıcaksa
+
                 break;
             case 2:
+
+                // bahar yapıcak
                 break;
             case 3:
                 break;
