@@ -71,9 +71,7 @@ public class Armor {
         System.out.println("bir zırh seçiniz");
         System.out.println("geri çıkmak için --> 10");
         int value = scanner.nextInt();
-        if (value == 10) {
-            menu.mainMenu();
-        }
+
         Armor armor = new Armor();
         armor.setName(armorName[value-1]);
         armor.setHealth(armorHealth[value-1]);
