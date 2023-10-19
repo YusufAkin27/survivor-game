@@ -19,11 +19,10 @@ public class Story {
             case 1:
                 // önce tüm zırhları görmem lazım
                 // satım alımı yapıcaksa
-                armor=armor.listele();
-                if (armor.getPrice()<=character.getMoney()){
-                    //satın alabilir karakterin parası yeterli
-                }
-                else {
+                armor = armor.listele();
+                if (armor.getPrice() <= character.getMoney()) {
+                    character.setArmor(armor);
+                } else {
                     System.out.println("karakterin parası yetersiz");
                     storyMenu(character);
                 }
@@ -35,7 +34,7 @@ public class Story {
             case 3:
                 break;
             case 4:
-                menu.mainMenu();
+                menu.mainMenu(character);
             default:
                 System.out.println("hatalı tuşlama yaptınız");
                 storyMenu(character);
